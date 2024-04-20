@@ -24,7 +24,7 @@ alive_logo = random.choice(logoX)
 async def start(app, message):
     chat_id = message.chat.id
     file_id = alive_logo
-    caption = "нɛℓℓσ, мʏ Μᴀsᴛᴇʀ ❣️\nИιcɛ Ƭσ Μɛɛт 𝗬σʋ 🤗 !!\nI ɢʋɛƨƨ, тнαт ʏσʋ κиσω мɛ, Ʋнн ʏσʋ ∂σи'т, иρ..\nƜɛℓℓ.\n\n𝗔 Pᴏᴡᴇʀғᴜʟ 𝗔ƨƨɪᴛᴀɴᴛ \n\n 𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ 🦋 [Ɖιcтαтσя](t.me/OgHoneyy)\n\nYᴏᴜ Cᴀɴ Cʜᴀᴛ Wɪᴛʜ Mʏ Mᴀsᴛᴇʀ Tʜʀᴏᴜɢʜ Tʜɪs Bᴏᴛ.\nIғ Yᴏᴜ Wᴀɴᴛ Yᴏᴜʀ Oᴡɴ Assɪᴛᴀɴᴛ Yᴏᴜ Cᴀɴ Dᴇᴘʟᴏʏ Fʀᴏᴍ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ."
+    caption = "нɛℓℓσ, мʏ Μᴀsᴛᴇʀ ❣️\nИιcɛ Ƭσ Μɛɛт 𝗬σʋ 🤗 !!\nI ɢʋɛƨƨ, тнαт ʏσʋ κиσω мɛ, Ʋнн ʏσʋ ∂σи'т, иρ..\nƜɛℓℓ.\n\n𝗔 Pᴏᴡᴇʀғᴜʟ 𝗔ƨƨɪᴛᴀɴᴛ \n\n 𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ 🦋 [𝐇ᴏɴᴇʏ](t.me/OgHoneyy)\n\nYᴏᴜ Cᴀɴ Cʜᴀᴛ Wɪᴛʜ Mʏ Mᴀsᴛᴇʀ Tʜʀᴏᴜɢʜ Tʜɪs Bᴏᴛ.\nIғ Yᴏᴜ Wᴀɴᴛ Yᴏᴜʀ Oᴡɴ Assɪᴛᴀɴᴛ Yᴏᴜ Cᴀɴ Dᴇᴘʟᴏʏ Fʀᴏᴍ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ."
     reply_markup = InlineKeyboardMarkup([
         [
             InlineKeyboardButton("𝐒𝗎𝗉𝗉𝗈𝗋𝗍", url="https://t.me/insanesociety"),
