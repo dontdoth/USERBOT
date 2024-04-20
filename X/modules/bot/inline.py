@@ -66,7 +66,7 @@ async def alive_function(message: Message, answers):
         InlineQueryResultArticle(
             title="alipp",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/14a5eb1c01732e912ee32.jpg",
+            thumb_url="https://graph.org/file/2cbc7bf60a108af4a67b2.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
@@ -102,12 +102,12 @@ async def peler_function(message: Message, answers):
         InlineQueryResultArticle(
             title="alive",
             description="Ɔнɛcκ βσт'ƨ Ƨтαтƨ",
-            thumb_url="https://telegra.ph/file/71fcc97ea73c5265d6925.jpg",
+            thumb_url="https://graph.org/file/2cbc7bf60a108af4a67b2.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="𝐂ʜᴀɴɴᴇʟ", url="https://t.me/SAIFALLBOT"), InlineKeyboardButton(text="𝐃ɪᴄᴛᴀᴛᴏʀ", url="https://t.me/SAIF_DICTATOR")], [InlineKeyboardButton(text="𝐌ᴇɴᴜ", callback_data="reopen")]]
+                [[InlineKeyboardButton(text="𝐂ʜᴀɴɴᴇʟ", url="https://t.me/Honey_networks"), InlineKeyboardButton(text="𝐃ɪᴄᴛᴀᴛᴏʀ", url="https://t.me/insanesociety")], [InlineKeyboardButton(text="𝐌ᴇɴᴜ", callback_data="reopen")]]
             ),
         )
     )
@@ -120,7 +120,7 @@ async def help_function(answers):
         InlineQueryResultArticle(
             title="Help Article!",
             description="ᴄʜᴇᴄᴋ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ & ʜᴇʟᴘ",
-            thumb_url="https://telegra.ph/file/14a5eb1c01732e912ee32.jpg",
+            thumb_url="https://graph.org/file/2cbc7bf60a108af4a67b2.jpg",
             input_message_content=InputTextMessageContent(
                 Data.text_help_menu.format(len(CMD_HELP))
             ),
