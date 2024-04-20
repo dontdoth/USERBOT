@@ -9,7 +9,7 @@ from X.helpers.basic import edit_or_reply, get_text, get_user
 from .help import *
 
 OWNER = os.environ.get("OWNER", None)
-BIO = os.environ.get("BIO", "𝐃ɪᴄᴛᴀᴛᴏʀ 𝐔sᴇʀ𝐁ᴏᴛ 𝐉ᴏɪɴ @SAIFALLBOT")
+BIO = os.environ.get("BIO", "𝐇ᴏɴᴇʏ 𝐔sᴇʀ𝐁ᴏᴛ 𝐉ᴏɪɴ @OgHoneyy")
 
 
 @Client.on_message(filters.command("clone", cmd) & filters.me)
