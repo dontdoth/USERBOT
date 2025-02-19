@@ -9,7 +9,7 @@ load_dotenv("config.env")
 ALIVE_EMOJI = getenv("ALIVE_EMOJI", "⚡")
 ALIVE_LOGO = getenv("ALIVE_LOGO", "https://graph.org/file/2bf3870c3b4df9960ccf8.jpg")
 ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "𝐇ᴇʏ , 𝐇ᴏɴᴇʏ 𝐔sᴇʀ𝐁ᴏᴛ 𝐈s 𝐀ʟɪᴠᴇ 🥀")
-API_HASH = getenv("API_HASH", "04dc2f1bdf0049f6990ed2eb3d10f2ec)
+API_HASH = getenv("API_HASH", "04dc2f1bdf0049f6990ed2eb3d10f2ec")
 API_ID = getenv("API_ID", "29135868")
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 BOT_VER = "3.0.0@main"
