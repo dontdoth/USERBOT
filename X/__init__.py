@@ -38,7 +38,19 @@ SUDO_USER = SUDO_USERS
 clients = []
 ids = []
 LOG_FILE_NAME = "logs.txt"
+# در بخش imports اضافه کنید:
+import nest_asyncio
+nest_asyncio.apply()
 
+# قبل از تعریف aiosession این کد را اضافه کنید:
+try:
+    loop = asyncio.get_event_loop()
+except RuntimeError:
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+
+# سپس aiosession را اینطور تعریف کنید:
+aiosession = ClientSession(loop=loop)
 logging.basicConfig(
     level=logging.INFO,
     format="[%(levelname)s] - %(name)s - %(message)s",
